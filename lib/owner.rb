@@ -31,9 +31,7 @@ def say_species
   "I am a #{@species}."
 end
 
-def name
-  @name= name
-end
+
 
 def buy_cat(name)
   cat = Cat.new(name)
