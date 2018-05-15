@@ -4,7 +4,7 @@ class Fish
 
   def initialize(name, mood="nervous")
     @name = name
-    @mood = "nervous"
+    @mood = mood
   end
 
 end
