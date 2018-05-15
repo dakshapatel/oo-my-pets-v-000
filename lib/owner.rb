@@ -5,9 +5,9 @@ attr_reader :species
 
 @@all= []
 
-def initialize(name)
+def initialize(species)
 
-  @name = name
+  @species = species
   @pets = {fishes: [], cats: [], dogs: []}
   @@all << self
 end
@@ -28,7 +28,7 @@ end
 
 
 def say_species
-  "I am a #{@species}"
+  "I am a #{@species}."
 end
 
 def name
